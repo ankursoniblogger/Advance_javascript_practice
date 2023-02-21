@@ -18,4 +18,13 @@ c.name = "Ankur soni";
 
 console.log("b:" , b) */
 
-  
+// console.log(typeof null)
+// console.log( 1 == "1");
+/*
+var arr = [ 1, 2, 3]
+arr[0] = 7  
+console.log(arr);
+
+var str = "Ankur";
+str[0] = "a";
+console.log(str) */

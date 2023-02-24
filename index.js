@@ -54,3 +54,68 @@ Object.freeze(admin);
 
 admin.name = "Ankit soni";  //ab admin freez ho gya hain esse change nai kr sakte
 console.log(admin) */
+
+
+
+// using this keyword and new keyword
+
+
+//create a function that will reutrn a objuct
+/*
+function nikeProduct(){
+    let product = {}
+    product.name = "Nike";
+    product.price = "2000";
+
+    return product; 
+
+}
+
+let p1 = nikeProduct();
+console.log(p1) */
+
+//NOW SOLVE THIS QUESTION USING CONSTRACTED function
+/*
+function nikeProduct2(){
+    this.name = "nike";  // this = inisilization
+    this.price = "2000";
+
+}
+let p2 = new nikeProduct2(); // new keyword is same as returing
+console.log(p2); */
+
+/*
+function product(n, p, b){
+
+    this.name = n;
+    this.price = p;
+    this.brand = b;
+}
+ let p1 = new product("nike", "2000", "nikebrand") ;
+ let p2 = new product("addidas", "2000", "addidasbrand") ;
+
+ console.log(p1)
+ console.log(p2)  ; */
+
+
+//  Call ,Apply ,  Bind
+/*
+function cookFood (order){
+    console.log(`serving ${order} in ${this.name}`)
+
+}
+
+const kitchan = {
+    name: "kitchan",
+    purpose:"cook"
+}
+const bedroom = {
+    name: "bedroom",
+    purpose: "living"
+}
+const LR = {
+    name: "living room",
+    purpose: "we live"
+}
+
+cookFood.call(kitchan, "maggi");*/

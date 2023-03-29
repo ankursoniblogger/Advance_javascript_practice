@@ -177,3 +177,27 @@ cookFood.call(kitchan, "maggi");*/
 // }
 // sum(2)
 
+
+                         // what is closurse  given the example of closurse
+
+
+
+const interwiewQuestion = (name) => {
+
+    return function(topic){
+        if(name === "vinod"){
+            console.log(`Hi ${name}. plz explain what is the ${topic }`);
+        }
+         else if(name === "thapa"){
+            console.log(`Hi ${name}. plz explain what is the ${topic}`);
+        }
+         else if(name === "ankur"){
+            console.log(`Hi ${name}. plz explain what is the ${topic }`)
+        } else{
+            console.log("welcome")
+        }
+    
+    }
+    }
+    interwiewQuestion("vinod")("UI");
+    interwiewQuestion("ankur")("web developer");

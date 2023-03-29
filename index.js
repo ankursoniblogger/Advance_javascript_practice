@@ -119,3 +119,61 @@ const LR = {
 }
 
 cookFood.call(kitchan, "maggi");*/
+
+// var myName = "Ankur soni";
+
+// function a1(){
+//     var an = "first name";
+//     console.log(an);
+//     b1();
+//     console.log("My name is ankur soni");
+// }
+
+// function b1(){
+//     console.log("this is 2nd function ");
+//     c1();
+// }
+// function c1(){
+//     console.log("this is 3rd function");
+// }
+// a1();
+
+
+// function area(length , breadth){
+//     let area = length * breadth;
+//     console.log(area)
+// }
+
+
+// area(2,3);
+// area(3,4);
+
+// let a =  10 ;  // a = 20
+// let b = 20 ;  //b = 10 
+
+// a = a + b  // a = 30
+//   var i = 10;
+//   do {
+//     console.log("hii");
+//   }while(i<5);
+
+// var i = 0;
+// while(i<5);{
+//     console.log("hii");
+//     ++i;
+// }
+
+// function sum(n){
+        
+// let sum = 0;
+// for (let i = 1; i <= n; i++)
+// {
+//   if (i % 2 == 0)
+//   {
+//     sum = sum + i;
+//   }
+// }
+// console.log(sum)
+// }
+// sum(2)
+
